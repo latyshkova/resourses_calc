@@ -29,50 +29,42 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+
 input {
   border: white 2px solid;
   border-radius:5px;
   width: 64px;
-  
+  border-color: rgb(var(--input-color));
+  background-color: rgba(var(--input-color), 0.25);
+  &::placeholder {
+    color: rgb(var(--input-color))
+  }
+}
+
+::placeholder {
+  text-align:center;
 }
 
 .grey {
-  border-color:#6A6A6A;
-  background-color: #D6D6D6;
-  &::placeholder {
-    color:#6A6A6A
-  }
+  --input-color: 143, 143, 143;
 }
 
 .green {
-  border-color:#32855F;
-  background-color: #D3EEE2;
-  &::placeholder {
-    color:#32855F
-  }
+  --input-color: 138, 208, 151;
 }
 
 .blue {
-  border-color:#545AF2;
-  background-color: #C6C8FB;
-  &::placeholder {
-    color:#545AF2
+  --input-color: 103, 145, 244;
   }
-}
+
 
 .purple {
-  border-color:#8740C9;
-  background-color: #E1CFF2;
-  &::placeholder {
-    color:#8740C9
+  --input-color: 165, 111, 216;
   }
-}
+
 
 .golden {
-  border-color:#FFA601;
-  background-color: #FFEAC2;
-  &::placeholder {
-    color:#FFA601
+  --input-color: 255, 191, 71;
   }
-}
+
 
