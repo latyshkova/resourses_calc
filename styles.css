@@ -12,6 +12,8 @@ body {
 
 main {
   padding: 1rem;
+  max-width: 480px;
+  margin: auto;
 }
 
 h1 {
@@ -29,11 +31,16 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+fieldset {
+  display: flex;
+}
+
 
 input {
+  flex: 1;
   border: white 2px solid;
   border-radius:5px;
-  width: 64px;
+  line-height: 1.2rem;
   border-color: rgb(var(--input-color));
   background-color: rgba(var(--input-color), 0.25);
   &::placeholder {
