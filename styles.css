@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "GenshinImpact";
+  src: url("Genshin_Impact.ttf") format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: "GenshinImpact", system-ui, sans-serif;
   color: black;
   background-color: white;
 }
