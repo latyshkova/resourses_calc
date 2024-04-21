@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Калькулятор ресурсов</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Калькулятор ресурсов хе хе</h1>
+      <a
+        target="_blank"
+        href="https://act.hoyolab.com/ys/event/calculator-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&utm_source=tools&lang=ru-ru&bbs_theme=dark&bbs_theme_device=1#/"
+        >Проверить необходимые материалы на сайте hoyolab
+      </a>
+      <form id="form" action="">
+        <p>
+          Введите количество необходимых и имеющихся ресурсов чтобы оценить,
+          хватает ли вам этого количества
+        </p>
+        <fieldset>
+          <legend>Введите необходимые ресурсы</legend>
+          <input type="number" name="n1" placeholder="☆" />
+          <input type="number" name="n2" placeholder="☆☆" />
+          <input type="number" name="n3" placeholder="☆☆☆" />
+          <input type="number" name="n4" placeholder="☆☆☆☆" />
+          <input type="number" name="n5" placeholder="☆☆☆☆☆" />
+        </fieldset>
+        <fieldset>
+          <legend>Введите имеющиеся ресурсы</legend>
+          <input type="number" name="h1" placeholder="☆" />
+          <input type="number" name="h2" placeholder="☆☆" />
+          <input type="number" name="h3" placeholder="☆☆☆" />
+          <input type="number" name="h4" placeholder="☆☆☆☆" />
+          <input type="number" name="h5" placeholder="☆☆☆☆☆" />
+        </fieldset>
+        <button type="submit">Посчитать</button>
+      </form>
+
+      <p id="log"></p>
+    </main>
+  </body>
+</html>
