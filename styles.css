@@ -18,3 +18,34 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+input {
+  border: white 2px solid;
+  border-radius:5px;
+}
+
+.grey {
+  border-color:#6A6A6A;
+  background-color: #D6D6D6;
+}
+
+.green {
+  border-color:#32855F;
+  background-color: #D3EEE2;
+}
+
+.blue {
+  border-color:#545AF2;
+  background-color: #C6C8FB;
+}
+
+.purple {
+  border-color:#8740C9;
+  background-color: #E1CFF2;
+}
+
+.golden {
+  border-color:#FFA601;
+  background-color: #FFEAC2;
+  
+}
