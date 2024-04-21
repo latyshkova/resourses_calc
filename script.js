@@ -17,8 +17,8 @@ function logData(event) {
   const h4 = Number(formData.get('h4'));
   const h5 = Number(formData.get('h5'));
 
-  const have = n1 + n2 * 3 + n3 * 9 + n4 * 27 + n5 * 27 * 3;
-  const need = h1 + h2 * 3 + h3 * 9 + h4 * 27 + h5 * 27 * 3;
+  const need = n1 + n2 * 3 + n3 * 9 + n4 * 27 + n5 * 27 * 3;
+  const have = h1 + h2 * 3 + h3 * 9 + h4 * 27 + h5 * 27 * 3;
 
   const res = (have * 100) / need;
 
